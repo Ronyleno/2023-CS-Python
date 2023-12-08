@@ -1,0 +1,5 @@
+
+def comgroups(a, b):
+    return sorted(a) == sorted(b)
+
+print(comgroups(["a", 2, 3], [3, 2, "a"]))
