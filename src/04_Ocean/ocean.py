@@ -15,7 +15,7 @@ class Ocean:
         return f"{self.__class__.__name__}({self.state!r})"
 
     def gen_next_quantum(self) -> "Ocean":
-        raise NotImplementedError
+        pass
 
 
 if __name__ == "__main__":
