@@ -8,4 +8,4 @@ class Singleton:
         if not cls.single:
             cls.single = super().__new__(cls)
 
-        return cls.single
+        return cls.single #a
